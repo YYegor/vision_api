@@ -1,0 +1,1 @@
+mysqldump -u backup -p --routines --no-create-info --no-data --no-create-db --skip-opt vision_api > vision_api_routines_only.sql
